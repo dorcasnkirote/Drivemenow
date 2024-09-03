@@ -1,0 +1,54 @@
+body{
+    background-image: url("https://images.pexels.com/photos/120049/pexels-photo-120049.jpeg?cs=srgb&dl=pexels-mike-b-120049.jpg&fm=jpg");
+    background-size: cover;
+    height: 100svh;
+    background-attachment: fixed;
+}
+#navheader
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+#logo
+{
+    color: white;
+    font-size: 40px;
+    margin-left: 20px;
+}
+i
+{
+    color: coral;
+}
+
+#motto
+{
+    text-align: center;font-size:25px;color:orange;
+}
+#welcometitle
+{
+    color:orange;font-size:30px;margin-left: 20px;margin-top: 50px;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+a #submit
+{
+    background-color: cornflowerblue;
+    border-radius: 20px;
+    padding: 20px;
+    margin-left: 20px;
+    color: red;
+    font-size: 20px;
+}
+#account
+{
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 20px;
+    font-size: 20px;
+}
+#account a{
+    color: orange;
+}

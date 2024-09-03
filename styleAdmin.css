@@ -1,0 +1,74 @@
+*{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+body{
+    background-image: url("https://images.unsplash.com/photo-1590137303959-f500008a2930?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8OHx8Y2FycyUyMHdoaXRlfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=600&q=60");
+    height: 100svh;
+    background-size: cover;
+    background-attachment: fixed;
+}
+#navheader
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+#logo
+{
+    color: white;
+    font-size: 40px;
+    margin-left: 20px;
+}
+#logo a{
+    gap: 20px;
+    text-decoration: none;
+    margin-left: 20px;
+    color:orange;
+    margin-left: 20px;
+}
+i
+{
+    color: orange;
+}
+#navbar ul
+{
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+}
+#navbar ul li{
+    list-style: none;
+}
+#navbar ul li a{
+    text-decoration: none;
+    font-size: 22px;
+    color: orange;
+ }
+#account
+{
+    color: orange;
+}
+#h1
+{
+    margin-left: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+span{
+    font-size: 20px;
+    margin-left: 800px;
+}
+html{
+    scroll-behavior: smooth;
+}
+#account
+{
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 20px;
+    font-size: 20px;
+}
+#account a{
+    color: orange;
+}
+
+

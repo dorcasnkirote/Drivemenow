@@ -1,0 +1,13 @@
+#why li,#faq li
+{
+    background-color: #0B2447;
+    color: white;
+}
+i{
+    color: orange;
+}
+#why li span,#faq li span
+{
+    color: white;
+    float:right;cursor:pointer;
+}
